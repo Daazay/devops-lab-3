@@ -13,5 +13,8 @@ echo Deploying backend API...
 kubectl apply -f k8s/backend/deployment.yaml
 kubectl apply -f k8s/backend/service.yaml
 
+echo Deploying backend HPA...
+kubectl apply -f k8s/backend/hpa.yaml
+
 echo All resources applied.
 pause

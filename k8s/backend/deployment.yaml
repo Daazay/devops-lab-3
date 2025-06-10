@@ -18,6 +18,11 @@ spec:
           image: cr.yandex/crp6isv0h7lq8bnroc41/roombook-api:latest
           ports:
             - containerPort: 8080
+          resources:
+            requests:
+              cpu: "100m"
+            limits:
+              cpu: "500m"
           env:
             - name: DB_URL
               valueFrom:

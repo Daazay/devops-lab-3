@@ -1,4 +1,7 @@
 @echo off
+echo Deleting backend HPA...
+kubectl delete -f k8s/backend/hpa.yaml
+
 echo Deleting backend API...
 kubectl delete -f k8s/backend/deployment.yaml
 kubectl delete -f k8s/backend/service.yaml
