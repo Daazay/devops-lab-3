@@ -1,0 +1,26 @@
+# Файлы состояния Terraform
+*.tfstate
+*.tfstate.backup
+
+# Каталог с модулями Terraform
+.terraform/
+
+# Временные файлы
+*.tfvars
+*.tfvars.json
+
+# Файлы плана
+.terraform.plan
+*.plan
+
+# Файлы конфигурации
+*.tfvars
+
+# Исключения (если нужно отслеживать некоторые файлы)
+!*.tfvars.example
+
+# Файлы отладки
+.terraform.lock.hcl
+
+# lock файл
+.terraform.tfstate.lock.info

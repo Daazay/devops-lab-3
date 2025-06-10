@@ -1,0 +1,6 @@
+yc_token     = ""
+yc_cloud_id  = ""
+yc_folder_id = ""
+yc_zone      = "ru-central1-a"
+
+ssh_public_key_path = "C:/Users/{USER}/.ssh/id_ed25519.pub"
